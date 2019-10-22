@@ -171,6 +171,9 @@
       <SubComponents>
         <Component class="javax.swing.JTextArea" name="jTextArea2">
           <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="66" red="33" type="rgb"/>
+            </Property>
             <Property name="columns" type="int" value="20"/>
             <Property name="rows" type="int" value="5"/>
             <Property name="text" type="java.lang.String" value="&lt;?xml version=&quot;0.1&quot; encoding=&quot;UFT-8&quot; standalone=&quot;no&quot;?&gt;&#xa;&lt;Paises&gt;&#xa;&#x9;&lt;Pa&#xed;s&gt;&#xa;&#x9;&#x9;&lt;Nombre&gt;Costa Rica&lt;/Nombre&gt;&#xa;&#x9;&#x9;&lt;&#xc1;rea&gt;51&lt;&lt;&#xc1;rea&gt;&#xa;&#x9;&#x9;&lt;Poblaci&#xf3;n&gt;&lt;/Poblaci&#xf3;n&gt;&#xa;&#x9;&#x9;&lt;Provincias&gt;&#xa;&#x9;&#x9;&#x9;&lt;Provincia&gt;Lim&#xf3;n&lt;/Provincia&gt;&#xa;&#x9;&#x9;&lt;/Provincias&gt;&#xa;&#x9;&#x9;&lt;Limites&gt;&#xa;&#x9;&#x9;&#x9;&lt;Limite&gt;Panam&#xe1;&lt;/Limite&gt;&#xa;&#x9;&#x9;&lt;/Limites&gt;&#xa;&#x9;&lt;/Pa&#xed;s&gt;&#xa;&lt;/Paises&gt;"/>
@@ -446,5 +449,33 @@
         </Constraint>
       </Constraints>
     </Component>
+    <Container class="javax.swing.JPanel" name="Fondo01">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="cc" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="1010" height="390"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+    </Container>
+    <Container class="javax.swing.JPanel" name="Fondo02">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="cc" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="390" width="1010" height="300"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+    </Container>
   </SubComponents>
 </Form>

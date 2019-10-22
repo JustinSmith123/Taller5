@@ -59,6 +59,8 @@ public class Ventana1 extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jSeparator1 = new javax.swing.JSeparator();
         jSeparator2 = new javax.swing.JSeparator();
+        Fondo01 = new javax.swing.JPanel();
+        Fondo02 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -105,6 +107,7 @@ public class Ventana1 extends javax.swing.JFrame {
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, 350, 140));
 
+        jTextArea2.setBackground(new java.awt.Color(51, 102, 255));
         jTextArea2.setColumns(20);
         jTextArea2.setRows(5);
         jTextArea2.setText("<?xml version=\"0.1\" encoding=\"UFT-8\" standalone=\"no\"?>\n<Paises>\n\t<País>\n\t\t<Nombre>Costa Rica</Nombre>\n\t\t<Área>51<<Área>\n\t\t<Población></Población>\n\t\t<Provincias>\n\t\t\t<Provincia>Limón</Provincia>\n\t\t</Provincias>\n\t\t<Limites>\n\t\t\t<Limite>Panamá</Limite>\n\t\t</Limites>\n\t</País>\n</Paises>");
@@ -223,6 +226,12 @@ public class Ventana1 extends javax.swing.JFrame {
         jSeparator2.setForeground(new java.awt.Color(0, 0, 0));
         jSeparator2.setOrientation(javax.swing.SwingConstants.VERTICAL);
         getContentPane().add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 0, 550, 390));
+
+        Fondo01.setBackground(new java.awt.Color(153, 204, 0));
+        getContentPane().add(Fondo01, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1010, 390));
+
+        Fondo02.setBackground(new java.awt.Color(204, 0, 51));
+        getContentPane().add(Fondo02, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 390, 1010, 300));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -348,6 +357,8 @@ public class Ventana1 extends javax.swing.JFrame {
     private javax.swing.JButton AgregarPais;
     private javax.swing.JButton AgregarPaises;
     private javax.swing.JTextField AreaP;
+    private javax.swing.JPanel Fondo01;
+    private javax.swing.JPanel Fondo02;
     private javax.swing.JTextField IdiomaP;
     private javax.swing.JLabel LabelArea;
     private javax.swing.JLabel LabelLimite;
