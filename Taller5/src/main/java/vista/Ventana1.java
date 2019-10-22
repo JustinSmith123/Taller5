@@ -109,6 +109,7 @@ public class Ventana1 extends javax.swing.JFrame {
 
         jTextArea2.setBackground(new java.awt.Color(51, 102, 255));
         jTextArea2.setColumns(20);
+        jTextArea2.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
         jTextArea2.setRows(5);
         jTextArea2.setText("<?xml version=\"0.1\" encoding=\"UFT-8\" standalone=\"no\"?>\n<Paises>\n\t<País>\n\t\t<Nombre>Costa Rica</Nombre>\n\t\t<Área>51<<Área>\n\t\t<Población></Población>\n\t\t<Provincias>\n\t\t\t<Provincia>Limón</Provincia>\n\t\t</Provincias>\n\t\t<Limites>\n\t\t\t<Limite>Panamá</Limite>\n\t\t</Limites>\n\t</País>\n</Paises>");
         jScrollPane2.setViewportView(jTextArea2);

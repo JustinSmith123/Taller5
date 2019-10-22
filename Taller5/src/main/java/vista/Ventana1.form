@@ -175,6 +175,9 @@
               <Color blue="ff" green="66" red="33" type="rgb"/>
             </Property>
             <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="3"/>
+            </Property>
             <Property name="rows" type="int" value="5"/>
             <Property name="text" type="java.lang.String" value="&lt;?xml version=&quot;0.1&quot; encoding=&quot;UFT-8&quot; standalone=&quot;no&quot;?&gt;&#xa;&lt;Paises&gt;&#xa;&#x9;&lt;Pa&#xed;s&gt;&#xa;&#x9;&#x9;&lt;Nombre&gt;Costa Rica&lt;/Nombre&gt;&#xa;&#x9;&#x9;&lt;&#xc1;rea&gt;51&lt;&lt;&#xc1;rea&gt;&#xa;&#x9;&#x9;&lt;Poblaci&#xf3;n&gt;&lt;/Poblaci&#xf3;n&gt;&#xa;&#x9;&#x9;&lt;Provincias&gt;&#xa;&#x9;&#x9;&#x9;&lt;Provincia&gt;Lim&#xf3;n&lt;/Provincia&gt;&#xa;&#x9;&#x9;&lt;/Provincias&gt;&#xa;&#x9;&#x9;&lt;Limites&gt;&#xa;&#x9;&#x9;&#x9;&lt;Limite&gt;Panam&#xe1;&lt;/Limite&gt;&#xa;&#x9;&#x9;&lt;/Limites&gt;&#xa;&#x9;&lt;/Pa&#xed;s&gt;&#xa;&lt;/Paises&gt;"/>
           </Properties>
